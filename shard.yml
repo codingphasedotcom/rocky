@@ -1,0 +1,17 @@
+name: rocky
+version: 0.1.0
+
+authors:
+  - antracks <>
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+    branch: master
+    
+targets:
+  rocky:
+    main: src/rocky.cr
+
+crystal: 0.21.1
+
+license: MIT
