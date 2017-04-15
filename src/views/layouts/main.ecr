@@ -14,10 +14,11 @@
 
     </head>
     <body>
+
+      <%= render "../includes/navigation.ecr" %>
       <%= content %>
-       <%= yield_content "scripts" %>
+      <%= yield_content "scripts" %>
         <!-- <%= yield_content "content" %> -->
         <!-- <%= yield_content "scripts" %> -->
-
     </body>
 </html>
