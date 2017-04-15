@@ -1,12 +1,28 @@
 version: 1.0
 shards:
+  db:
+    github: crystal-lang/crystal-db
+    version: 0.4.1
+
   kemal:
     github: kemalcr/kemal
     commit: 0b4856b7417592743a27fc3e30867fd141395bf6
 
+  kemalyst-model:
+    github: drujensen/kemalyst-model
+    version: 0.4.4
+
+  kemalyst-validators:
+    github: drujensen/kemalyst-validators
+    version: 0.2.0
+
   kilt:
     github: jeromegn/kilt
     version: 0.3.3
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+    version: 0.3.2
 
   radix:
     github: luislavena/radix

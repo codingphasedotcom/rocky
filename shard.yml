@@ -2,12 +2,18 @@ name: rocky
 version: 0.1.0
 
 authors:
-  - antracks <>
+  - JoeSantosGarcia <>
 dependencies:
   kemal:
     github: kemalcr/kemal
     branch: master
     
+  kemalyst-model:
+    github: drujensen/kemalyst-model
+
+  mysql:
+    github: crystal-lang/crystal-mysql
+
 targets:
   rocky:
     main: src/rocky.cr
