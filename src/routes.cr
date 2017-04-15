@@ -13,7 +13,7 @@ MYSQL = DB.open("mysql://root@localhost:3306/crystal")
 
 # Matches GET "http://host:port/"
 get "/" do
-  render "src/views/home.ecr", "src/views/layouts/main.ecr"
+  render "src/views/pages/home.ecr", "src/views/layouts/main.ecr"
 end
 #
 # get "/:name" do |env|
