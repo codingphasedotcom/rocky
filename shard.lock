@@ -1,5 +1,9 @@
 version: 1.0
 shards:
+  commander:
+    github: mrrooijen/commander
+    version: 0.3.3
+
   db:
     github: crystal-lang/crystal-db
     version: 0.4.1
@@ -10,7 +14,7 @@ shards:
 
   kemalyst-model:
     github: drujensen/kemalyst-model
-    version: 0.4.4
+    version: 0.4.5
 
   kemalyst-validators:
     github: drujensen/kemalyst-validators

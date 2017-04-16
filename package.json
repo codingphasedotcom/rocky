@@ -5,8 +5,14 @@
   "main": "index.js",
   "author": "joe santos garcia",
   "license": "MIT",
+  "homepage": "https://your-package.org",
   "dependencies": {
     "react": "^15.5.4",
     "webpack": "^2.4.1"
+  },
+  "scripts": {
+    "server": "crystal src/rocky.cr",
+    "build": "crystal build --release src/rocky.cr",
+    "test": "jest"
   }
 }

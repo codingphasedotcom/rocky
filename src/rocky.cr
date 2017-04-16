@@ -1,9 +1,10 @@
 require "./rocky/*"
 require "kemal"
-require "./routes.cr"
+require "./config/errors.cr"
+require "./routes/web.cr"
 
 module Rocky
-  
+
 end
 
 
