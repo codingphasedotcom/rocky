@@ -1,28 +1,93 @@
-# ROCKY STACK
-## REACT OVER CRYSTAL KEMAL & YARN
+# Introduction
+## React Over Crystal, Kemal, & Yarn
+Current version is ```0.1.0```
+See the Full Documentation [https://codingphasedotcom.github.io/rocky-documentation/](https://codingphasedotcom.github.io/rocky-documentation/)
 
-TODO: Write a description here
+### Welcome to the ROCKY Stack
+I built this as an experiment to put together the best libraries to build a modern yet simple stack.
+
+I chose to base my stack
+
+ * React - Solid front end framework backed by Facebook
+
+ * Crystal - A powerful new language with syntax similar to ruby but is as fast as "C"
+
+ * Kemal - Super light weight http framework made by Serdar Doğruyol
+
+ * Yarn - The fastest package manager also made by Facebook
 
 ## Installation
+Follow the code on the right for the installation commands that you will have to run on your operating systems terminal / console.
 
-Will write this soon
+Requirements
 
-## Usage
+### Rocky Project
+```shell
+git clone https://github.com/codingphasedotcom/rocky
+```
 
-Just a simple modern super duper fast stack
+Download or clone the ROCKY Project
 
-## Development
+[https://github.com/codingphasedotcom/rocky](https://github.com/codingphasedotcom/rocky)
 
-Will write this later
+homebrew for mac
 
-## Contributing
+## OS X (Mac)
+```shell
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+Homebrew
 
-1. Fork it ( https://github.com/codingphasedotcom/rocky/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
+```shell
+brew update
+brew install crystal-lang
+brew install yarn
+```
 
-## Contributors
+Make sure you have homebrew
 
-- [[jaysg]](https://github.com/jaysg) Joe Santos Garcia - creator, maintainer
+## Ubuntu / Linux
+```shell
+curl https://dist.crystal-lang.org/apt/setup.sh | sudo bash
+sudo apt-get install crystal
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+```
+
+Debian / Ubuntu
+
+For other OSes and distros check the official documentation.
+
+[https://yarnpkg.com/en/docs/install#linux-tab](https://yarnpkg.com/en/docs/install#linux-tab)
+
+
+
+
+## Dependencies
+### Get Crystal Dependencies
+```shell
+#terminal
+shards install
+```
+
+Get all the "Backend" crystal dependencies
+
+
+### Get Yarn Dependencies
+```shell
+#terminal
+yarn install
+```
+
+Get all the "Frontend" dependencies
+
+
+## Getting Started
+```shell
+#terminal
+yarn run server
+```
+
+To test everything is good run the server.
+
+Now if you visit ```http://localhost:3000/``` you should see the welcome home page
