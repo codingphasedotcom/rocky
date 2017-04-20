@@ -1,0 +1,1 @@
+webpackJsonp([1,0],{30:function(t,e,n){"use strict";function o(t){return t&&t.__esModule?t:{default:t}}var s=n(18),c=(o(s),n(19));o(c);console.log("testing javascript1")}},[30]);
