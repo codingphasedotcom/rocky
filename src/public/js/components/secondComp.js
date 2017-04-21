@@ -1,1 +1,0 @@
-webpackJsonp([0],{92:function(s,t,c){"use strict";console.log("testing javascript2")}},[92]);
