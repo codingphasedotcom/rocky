@@ -7,12 +7,12 @@ const VENDOR_LIBS = [
 
 module.exports = {
   entry: {
-    firstComp: './src/assets/js/test.js',
-    secondComp: './src/assets/js/test2.js',
+    firstComp: './assets/js/firstComp/firstComp.js',
+    secondComp: './assets/js/test2.js',
     vendor: VENDOR_LIBS
   },
   output: { filename: '[name].js',
-            path: path.resolve(__dirname, 'src/public/js/components') },
+            path: path.resolve(__dirname, 'public/js/components') },
   module: {
     rules: [
       {
