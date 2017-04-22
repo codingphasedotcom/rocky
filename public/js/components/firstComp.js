@@ -32,7 +32,9 @@ var Layout = function (_Component) {
 
     var _this = _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).call(this));
 
-    _this.name = "Joe";
+    _this.state = {
+      name: "Joe"
+    };
     return _this;
   }
 
@@ -40,10 +42,59 @@ var Layout = function (_Component) {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
-        'h1',
-        null,
-        'Hello world ',
-        this.name
+        'div',
+        { className: 'home' },
+        _react2.default.createElement(
+          'div',
+          { className: 'Aligner' },
+          _react2.default.createElement(
+            'div',
+            { className: 'Aligner-item' },
+            _react2.default.createElement('img', { src: '/img/rocky-logo.png' }),
+            _react2.default.createElement(
+              'h1',
+              null,
+              'ROCKY STACK'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'menu' },
+              _react2.default.createElement(
+                'ul',
+                null,
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'https://codingphasedotcom.github.io/rocky-documentation/', target: 'new' },
+                    'Documentation'
+                  )
+                ),
+                _react2.default.createElement(
+                  'li',
+                  null,
+                  _react2.default.createElement(
+                    'a',
+                    { href: 'http://www.codingphase.com', target: 'new' },
+                    'CodingPhase.Com'
+                  )
+                )
+              )
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'version-num' },
+              'version 1.0.0'
+            ),
+            _react2.default.createElement('br', null),
+            _react2.default.createElement(
+              'a',
+              { className: 'github-button', href: 'https://github.com/codingphasedotcom/rocky', 'data-icon': 'octicon-star', 'data-style': 'mega', 'data-count-href': '/codingphasedotcom/rocky/stargazers', 'data-count-api': '/repos/codingphasedotcom/rocky#stargazers_count', 'data-count-aria-label': '# stargazers on GitHub', 'aria-label': 'Star codingphasedotcom/rocky on GitHub' },
+              'Star'
+            )
+          )
+        )
       );
     }
   }]);

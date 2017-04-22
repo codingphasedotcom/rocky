@@ -10,12 +10,14 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-        <%= yield_content "css" %>
+        <%= yield_content "head" %>
+        <!-- Place this tag in your head or just before your close body tag. -->
+
 
     </head>
     <body>
 
-      <%= render "src/views/includes/navigation.ecr" %>
+
       <%= content %>
       <%= yield_content "scripts" %>
         <!-- <%= yield_content "content" %> -->

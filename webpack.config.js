@@ -1,6 +1,7 @@
 
 const path = require('path');
 const webpack = require('webpack')
+
 const VENDOR_LIBS = [
   'redux', 'react-redux', 'react-dom'
 ]
@@ -24,7 +25,21 @@ module.exports = {
             [ 'es2015', { modules: false } ]
           ]
         }
-      }
+      },
+      {
+            test: /\.scss$/,
+            use: [{
+                loader: "style-loader"
+            }, {
+                loader: "css-loader", options: {
+                    sourceMap: true
+                }
+            }, {
+                loader: "sass-loader", options: {
+                    sourceMap: true
+                }
+            }]
+        }
     ]
   },
   plugins: [
