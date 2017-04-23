@@ -1,4 +1,4 @@
-webpackJsonp([1],{
+webpackJsonp([0],{
 
 /***/ 97:
 /***/ (function(module, exports, __webpack_require__) {
@@ -54,7 +54,7 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'ROCKY STACK'
+              'POWER RANGER'
             ),
             _react2.default.createElement(
               'div',
