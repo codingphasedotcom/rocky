@@ -14,7 +14,7 @@ class Layout extends Component{
           <div className="Aligner">
             <div className="Aligner-item">
               <img src="/img/rocky-logo.png" />
-              <h1>POWER RANGER</h1>
+              <h1>ROCKY STACK</h1>
               <div className="menu">
                 <ul>
                   <li><a href="https://codingphasedotcom.github.io/rocky-documentation/" target="new">Documentation</a></li>

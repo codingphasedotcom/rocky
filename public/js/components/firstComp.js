@@ -54,7 +54,7 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'h1',
               null,
-              'POWER RANGER'
+              'ROCKY STACK'
             ),
             _react2.default.createElement(
               'div',
