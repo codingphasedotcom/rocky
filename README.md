@@ -1,7 +1,7 @@
 # Introduction
 ## React Over Crystal, Kemal, & Yarn
 Current version is ```0.1.0```
-See the Full Documentation [https://codingphasedotcom.github.io/rocky-documentation/](https://codingphasedotcom.github.io/rocky-documentation/)
+See the Full Documentation [http://rocky.codingphase.com/](http://rocky.codingphase.com/)
 
 ### Welcome to the ROCKY Stack
 I built this as an experiment to put together the best libraries to build a modern yet simple stack.

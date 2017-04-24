@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "joe santos garcia",
   "license": "MIT",
-  "homepage": "https://your-package.org",
+  "homepage": "http://rocky.codingphase.com/",
   "dependencies": {
     "axios": "^0.16.1",
     "babel-core": "^6.24.1",
