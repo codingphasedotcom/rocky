@@ -1,4 +1,2 @@
-public/* linguist-vendored
-node_modules/* linguist-vendored
-assets/* linguist-vendored
-*.js linguist-language=Crystal
+* linguist-vendored
+*.cr linguist-vendored=false
