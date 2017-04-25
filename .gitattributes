@@ -1,0 +1,6 @@
+* linguist-vendored
+*.js linguist-language=Crystal
+*.cr linguist-vendored=false
+public/* linguist-vendored
+assets/* linguist-documentation
+*.js linguist-language=Java
