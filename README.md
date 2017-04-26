@@ -1,6 +1,6 @@
 # Introduction
 ## React Over Crystal, Kemal, & Yarn
-Current version is ```0.1.0```
+Current version is ```1.0.0```
 See the Full Documentation [http://rocky.codingphase.com/](http://rocky.codingphase.com/)
 
 ### Welcome to the ROCKY Stack
