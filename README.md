@@ -1,7 +1,12 @@
 # Introduction
 ## React Over Crystal, Kemal, & Yarn
-Current version is ```1.0.0```
+Current version is ```1.1.0```
 See the Full Documentation [http://rocky.codingphase.com/](http://rocky.codingphase.com/)
+
+[![JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 ### Welcome to the ROCKY Stack
 I built this as an experiment to put together the best libraries to build a modern yet simple stack.

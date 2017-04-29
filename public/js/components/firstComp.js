@@ -33,7 +33,7 @@ var Layout = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Layout.__proto__ || Object.getPrototypeOf(Layout)).call(this));
 
     _this.state = {
-      name: "Joe"
+      name: 'Joe'
     };
     return _this;
   }
@@ -85,7 +85,7 @@ var Layout = function (_Component) {
             _react2.default.createElement(
               'div',
               { className: 'version-num' },
-              'version 1.0.0'
+              'version 1.1.0'
             ),
             _react2.default.createElement('br', null),
             _react2.default.createElement(
