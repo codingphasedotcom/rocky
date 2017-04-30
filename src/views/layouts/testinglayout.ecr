@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <%= yield_content "head" %>
+  </head>
+  <body>
+    <header>
+      heres a header
+    </header>
+    <%= render "src/views/includes/navigation.ecr" %>
+    
+    <%= content %>
+
+    <footer>
+      <%= yield_content "footer" %>
+    </footer>
+  </body>
+</html>
