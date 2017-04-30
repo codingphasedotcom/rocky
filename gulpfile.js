@@ -32,7 +32,8 @@ gulp.task('browser-sync', ['styles'], function () {
     proxy: {
       target: 'localhost:3000', // can be [virtual host, sub-directory, localhost with port]
       ws: true // enables websockets
-    }
+    },
+    serveStatic: ['.', './public']
   })
 })
 
