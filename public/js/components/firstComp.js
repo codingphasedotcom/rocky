@@ -67,7 +67,7 @@ var Layout = function (_Component) {
                   null,
                   _react2.default.createElement(
                     'a',
-                    { href: 'http://rocky.codingphase.com', target: 'new' },
+                    { href: 'https://codingphasedotcom.github.io/rocky-documentation/', target: 'new' },
                     'Documentation'
                   )
                 ),
