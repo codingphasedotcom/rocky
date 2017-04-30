@@ -42,6 +42,8 @@
     "bundle": "./node_modules/.bin/webpack",
     "production": "./node_modules/.bin/webpack -p",
     "watch": "gulp",
+    "sass": "gulp styles",
+    "js": "gulp webpack",
     "test": "jest"
   }
 }

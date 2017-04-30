@@ -35,6 +35,7 @@ gulp.task('browser-sync', ['styles'], function () {
     }
   })
 })
+
 gulp.task('webpack', () => {
   return gulp.src('*.js', {read: false})
   .pipe(shell([
@@ -47,6 +48,6 @@ gulp.task('webpack', () => {
 //   'webpack'
 // ]))
 
-gulp.task('server', shell.task([
-  'yarn run server'
-]))
+// gulp.task('server', shell.task([
+//   'yarn run server'
+// ]))
