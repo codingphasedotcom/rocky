@@ -17,7 +17,7 @@ class Layout extends Component {
             <h1>ROCKY STACK</h1>
             <div className='menu'>
               <ul>
-                <li><a href='https://codingphasedotcom.github.io/rocky-documentation/' target='new'>Documentation</a></li>
+                <li><a href='http://rocky.codingphase.com' target='new'>Documentation</a></li>
                 <li><a href='http://www.codingphase.com' target='new'>CodingPhase.Com</a></li>
               </ul>
             </div>
