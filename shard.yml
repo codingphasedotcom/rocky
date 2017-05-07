@@ -13,9 +13,14 @@ dependencies:
 
   kemalyst-model:
     github: drujensen/kemalyst-model
-
+  db:
+    github: crystal-lang/crystal-db
+    
   mysql:
     github: crystal-lang/crystal-mysql
+
+  jennifer:
+    github: imdrasil/jennifer.cr
 
 targets:
   rocky:
