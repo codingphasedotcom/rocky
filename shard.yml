@@ -6,13 +6,8 @@ authors:
 dependencies:
   kemal:
     github: kemalcr/kemal
-    branch: master
   commander:
     github: mrrooijen/commander
-    version: ~> 0.3.3
-
-  kemalyst-model:
-    github: drujensen/kemalyst-model
   db:
     github: crystal-lang/crystal-db
 
